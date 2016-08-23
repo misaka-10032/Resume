@@ -6,28 +6,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
 \textbf{\Large Longqi (Rocky) Cai} & \textbf{\today} \\
-Software Engineer interested in Machine Learning & longqicai@gmail.com \\
+Software Engineer interested in Machine Learning & \email{longqicai@gmail.com} \\
 515 South Aiken Avenue, Pittsburgh, PA & \url{http://misaka-10032.github.io} \\
 \end{tabular*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Education}
+\section*{Education}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
-\item\ressubheading{Carnegie Mellon University}{Pittsburgh, PA}{M.Sc. in Information Technology Strategy}{Sep. 2015 - Dec. 2016}
-\item\ressubheading{Fudan University}{Shanghai, China}{B.Sc. in Computer Science and Technology}{Sep. 2011 - Jul. 2015}
+\resitem{Carnegie Mellon University}{Pittsburgh, PA}{M.Sc. in Information Technology Strategy (3.87/4.00)}{Sep. 2015 - Dec. 2016}
+\resitem{Fudan University}{Shanghai, China}{B.Sc. in Computer Science and Technology (3.64/4.00)}{Sep. 2011 - Jul. 2015}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Experience}
+\section*{Experience}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
-\item\ressubheading{Glow, Inc}{San Francisco / Shanghai}{Software Engineer}{Jul. 2014 - Jul. 2015}
+\resitem{Glow, Inc}{San Francisco / Shanghai}{Software Engineer}{Jul. 2014 - Jul. 2015}
   \begin{itemize}
-  \item Contributed 18k lines to Glow app, 8k lines to Nurture app.
-  \item Mainly worked on Android, sometimes on server.
+  \item Contributed 18k lines to Glow app, 8k lines to Nurture app, 4k lines to internal library.
   \item Customized fancy UI widgets and animation.
   \item Set up internal Maven center with Archiva and Gradle.
   \item Integrated Google Now API, including both server and client side OAuth2 flow.
@@ -35,23 +34,36 @@ Software Engineer interested in Machine Learning & longqicai@gmail.com \\
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Github Repositories}
+\section*{Repositories}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{itemize}
-\item\textbf{Caffe Exts} Integrated Message Passing Interface (MPI) for distributed training.\linebreak
-  \hphantom{} Implemented fast Hough transform layer for powerline detection task.
-\item\textbf{Halstm} Implemented Long-Short Term Memory (LSTM) with Halide.\linebreak
-  \hphantom{} Improved CPU performance by 2x speedup.
-\item\textbf{Alg} Implemented commonly used algorithms and data structures.\linebreak
-  \hphantom{} Including hash map, min/max/med heap, avl/red-black tree, order statistics, graph traversal, etc.
-\item\textbf{ML/BigML/PGM} Implemented machine learning algorithms.\linebreak
-  \hphantom{} Including SVM, SVR, logistic regression, decision tree, HMM, LDA, sampling methods, etc.\linebreak
-  \hphantom{} Some of them used Hadoop, Spark, or Parameter Server for big data.
+\pjitem{Caffe Exts}{Extended Caffe as Independent Study}
+  \begin{itemize}
+  \item Integrated Message Passing Interface (MPI) for distributed training.
+  \item Implemented fast Hough Transform Layer for powerline detection task.
+  \end{itemize}
+\pjitem{Halstm}{Class prject for Parallel Programming}
+  \begin{itemize}
+  \item Implemented Long-Short Term Memory (LSTM) with Halide.
+  \item Made use of multi-thread execution and vector ALUs.
+  \item Improved CPU performance by 2x speedup, compared with Caffe.
+  \end{itemize}
+\pjitem{Alg}{Hobby / self-paced learning}
+  \begin{itemize}
+  \item Implemented commonly used algorithms and data structures with Python.
+  \item Including hash map, min/max/med heap, avl/red-black tree, order statistics, graph traversal.
+  \end{itemize}
+\pjitem{ML/BigML/PGM}{Accomplished ML assignments}
+  \begin{itemize}
+  \item Implemented machine learning algorithms, some with Big Data frameworks.
+  \item Including SVM, SVR, Logistic Regression, Decision Trees, HMM, LDA, sampling methods.
+  \item Naive Bayes with Hadoop; Sparse Logistic Regression with Spark; Distributed Matrix Factorization with Spark; LDA with Parameter Server.
+  \end{itemize}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Language}
+\section*{Language}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
 \item \textbf{Python} lover; experience with machine learning, algorithm, data processing/analysis/visualization.
